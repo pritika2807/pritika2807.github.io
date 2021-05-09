@@ -1,0 +1,155 @@
+.nav-item
+{
+    display: inline;
+    background-color:white;
+    color:black;
+    float:left;
+    padding:20px;
+    
+  text-decoration: none;
+}
+
+body{
+    margin:0px !important;
+    font-size: 20px;
+}
+.nav-item a{
+    color:black;
+    padding:10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.header{
+    list-style-type: none;
+    background-color: white;
+    margin: 0;
+    padding:10px;
+    height: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+    position: relative;
+}
+
+
+.nav-item a:hover{
+    color:rgb(255, 174, 0);
+}
+
+
+.header-logo{
+    height: 30px;
+}
+
+
+#bg-video{
+   
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    
+    min-height: 100vh;
+}
+
+
+.content{
+    background-color: rgba(0, 0, 0, 0.418);
+    padding: 40px;
+    margin-top: -575px;
+    font-size: larger;
+    position: absolute;
+    Z-INDEX: 99999;
+    color:white;
+    font-size: 40px;
+}
+
+
+.alignCenter{
+    text-align: center;
+}
+
+
+.container{
+    display:flex;
+}
+
+.col{
+    width: 100%;
+    padding:30px;
+    text-align: justify;
+}
+
+.cover{
+    width:100%;
+}
+
+.pull-right{
+    float:right
+}
+
+
+.border-right{
+    border-right:1px solid white;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.507);
+    font-size: 24px;
+    color:white;
+    text-align: center;
+}
+
+.overlay .col:hover{
+    background-color: orangered;
+}
+
+
+.quick-links{
+    list-style-type: none;
+    }
+.quick-links a{
+    color:white;
+    text-decoration: none;
+}
+
+.quick-links li{
+    padding:15px;
+}
+
+.quick-links a:hover{
+    border-bottom:2px solid orangered;
+
+}
+
+.styled-button{
+    background-color: black;
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+    color:white;
+    padding:10px
+}
+
+footer{
+    background-color: black;
+    color:white;
+}
+
+.footer-logo{
+    width: 90%;
+}
+
+.py-2{
+    padding:10px;
+}
+
+.control-field
+{
+    height:30px;
+    width:300px
+}
+
+select.control-field{
+    height:30px;
+    width:310px
+}
+form{
+    line-height: 1.5cm;
+}
